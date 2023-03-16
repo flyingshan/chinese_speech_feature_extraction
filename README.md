@@ -9,3 +9,6 @@ Because this repo is mainly focused on improving the chinese speech feature extr
 1. 使用models--jonatasgrosman--wav2vec2-large-xlsr-53-chinese-zh-cn模型提取出形状为(B, 16, 3503)的特征
 2. 使用本仓库的viseme.py, 将3503维特征转为109维特征
 3. 将AudioNet的输入从44维改为使用109，使用109维特征训练、测试
+
+* else
+对你有帮助的话请点个star！
